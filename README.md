@@ -20,7 +20,7 @@ In cooperative multi-agent missions, the design of collision-avoidance trajector
 ## Methodology Overview
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/d95378b5-0f19-43a8-91e0-ae8fdfb59f1d" alt="time" width="500"/>
+    <img src="./figs/trajex.png" alt="trajex" width="500" />
 </p>
 
 Our framework focuses on coordinating multiple agents within a pre-defined path network. The methodology is built upon the following key assumptions and formulations:
@@ -64,8 +64,12 @@ The resulting non-convex, non-linear optimization problem is solved using the Al
 High-density agents intersecting at random angles.
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/d95378b5-0f19-43a8-91e0-ae8fdfb59f1d" alt="time" width="500"/>
-    <img src="https://github.com/user-attachments/assets/cb2f982b-66a3-435a-ab9d-6c4d810b8c1b" alt="speed" width="500"/>
+    <img src="./figs/case1_timetraj.png" alt="case1time" width="500" />
+    <img src="./figs/case1_veltraj.png" alt="case1time" width="500" />
+</p>
+
+<p align="center">
+    <img src="./figs/case1.gif" alt="case1time" width="600" />
 </p>
 
 ### Case 2: Bottleneck
