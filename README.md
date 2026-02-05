@@ -75,5 +75,27 @@ High-density agents intersecting at random angles.
 ### Case 2: Bottleneck
 Agents converging into a narrow passage.
 
+<p align="center">
+    <img src="./figs/case2_timetraj.png" alt="case1time" width="500" />
+    <img src="./figs/case2_veltraj.png" alt="case1time" width="500" />
+</p>
+
+<p align="center">
+    <img src="./figs/case2.gif" alt="case1time" width="600" />
+</p>
+
 ### Case 3: Graph Trajectory
 Large-scale coordination on a complex network (UAM/Logistics).
+
+
+<p align="center">
+    <img src="./figs/case3_timetraj.png" alt="case1time" width="500" />
+    <img src="./figs/case3_veltraj.png" alt="case1time" width="500" />
+</p>
+
+<p align="center">
+    <img src="./figs/case3.gif" alt="case1time" width="500" />
+    <img src="./figs/case3t.gif" alt="case1time" width="500" />
+</p>
+
+The results shown on the right demonstrate the framework's capability in scenarios requiring mission-specific stops, such as Urban Air Mobility (UAM) or Automated Logistics.
