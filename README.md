@@ -23,6 +23,8 @@ In cooperative multi-agent missions, the design of collision-avoidance trajector
     <img src="./figs/trajex.png" alt="trajex" width="500" />
 </p>
 
+![trajex](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/trajex.png)
+
 Our framework focuses on coordinating multiple agents within a pre-defined path network. The methodology is built upon the following key assumptions and formulations:
 
 - **Fixed Path Assignment:** Each agent $i$ is assigned a sequence of waypoints that must be visited in order.
