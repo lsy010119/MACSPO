@@ -1,4 +1,4 @@
-# Collision-free Velocity Profile Optimization via First-Order Method With Inexact Projection
+# Collision-Free Velocity Scheduling for Multi-Agent Systems on Predefined Routes via Inexact-Projection ADMM
 
 **Anonymous Authors** (under double-blind review)
 
