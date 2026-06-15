@@ -13,35 +13,28 @@ Our framework coordinates multiple agents on fixed paths by optimizing waypoint 
 
 ## Numerical examples
 
-### Case 1: Random Crossing
-| Time | Velocity |
-|---|---|
-| ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case1_timetraj.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case1_veltraj.png) |
-
-![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case1.gif)
-
-### Case 2: Bottleneck
+### Case 1: Bottleneck
 | Time | Velocity |
 |---|---|
 | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case2_timetraj.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case2_veltraj.png) |
 
 ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case2.gif)
 
-### Case 3: Graph Trajectory
+### Case 2: Graph Trajectory
 | Minimum time | Fixed terminal time | Dwell time |
 |---|---|---|
 | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.png) |
 
 
-#### Case 3.a: Minimum time
+#### Case 2.a: Minimum time
 ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.gif)
 
-#### Case 3.b: Fixed terminal time
+#### Case 2.b: Fixed terminal time
 - **Fixed terminal time**: In the fixed terminal time scenario, all agents are assigned a target terminal time of 15.0 s.
 
 ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.gif)
 
-#### Case 3.c: Dwell time
+#### Case 2.c: Dwell time
 - **Dwell time**: In the dwell time scenario, all agents are required to dwell for 1.0 s at each waypoint.
 
 ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.gif) |
