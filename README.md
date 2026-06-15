@@ -33,9 +33,16 @@ Our framework coordinates multiple agents on fixed paths by optimizing waypoint 
 | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.png) |
 
 
-| Minimum time | Fixed terminal time | Dwell time |
-|---|---|---|
-| ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.gif) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.gif) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.gif) |
+#### Case 3.a: Minimum time
+![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.gif)
 
+#### Case 3.b: Fixed terminal time
 - **Fixed terminal time**: In the fixed terminal time scenario, all agents are assigned a target terminal time of 15.0 s.
+
+![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.gif)
+
+#### Case 3.c: Dwell time
 - **Dwell time**: In the dwell time scenario, all agents are required to dwell for 1.0 s at each waypoint.
+
+![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.gif) |
+
