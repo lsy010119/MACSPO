@@ -28,12 +28,14 @@ Our framework coordinates multiple agents on fixed paths by optimizing waypoint 
 ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case2.gif)
 
 ### Case 3: Graph Trajectory
-| Time | Velocity |
-|---|---|
-| ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case3_timetraj.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case3_veltraj.png) |
+| Minimum time | Fixed terminal time | Dwell time |
+|---|---|---|
+| ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.png) |
 
-| Demo | With stops |
-|---|---|
-| ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case3.gif) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/case3t.gif) |
 
-The results shown on the right demonstrate the framework's capability in scenarios requiring mission-specific stops, such as Urban Air Mobility (UAM) or Automated Logistics.
+| Minimum time | Fixed terminal time | Dwell time |
+|---|---|---|
+| ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.gif) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.gif) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.gif) |
+
+- **Fixed terminal time**: In the fixed terminal time scenario, all agents are assigned a target terminal time of 15.0 s.
+- **Dwell time**: In the dwell time scenario, all agents are required to dwell for 1.0 s at each waypoint.
