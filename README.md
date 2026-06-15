@@ -25,6 +25,8 @@ Our framework coordinates multiple agents on fixed paths by optimizing waypoint 
 |---|---|---|
 | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_fixedterm.png) | ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwell.png) |
 
+![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_dwelltime.gif)
+
 
 #### Case 2.a: Minimum time
 ![](https://anonymous.4open.science/api/repo/MACSPOS-8B07/file/figs/graph_original.gif)
